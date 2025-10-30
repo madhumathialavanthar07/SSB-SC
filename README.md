@@ -58,8 +58,8 @@ OUTPUT WAVEFORM:
 ![WhatsApp Image 2025-10-13 at 21 42 27_00284921](https://github.com/user-attachments/assets/adbbc2bb-f1e0-4d8d-94b0-701acc889d08)
 
 
-TABULATION:
 
+TABULATION:
 ![analog 3](https://github.com/user-attachments/assets/6b8adce3-68eb-42cc-8be3-8be4206bb3ec)
 
 
