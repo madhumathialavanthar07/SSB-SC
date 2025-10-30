@@ -51,22 +51,18 @@ Model Waveform
 <img width="704" height="178" alt="image" src="https://github.com/user-attachments/assets/32ee29b3-0d95-4192-9762-972d50c05c90" />
 <img width="706" height="167" alt="image" src="https://github.com/user-attachments/assets/bff0d8fd-d679-444e-af37-0b34585853c1" />
 
-Program
+Program:
+ac=15.4; Am=11.4; fc=2570; fm=320; fs=25000; t=0:1/fs:2/fm; wc=23.14fc; wm=23.14fm; e1=(Amsin(wmt)); subplot(4,1,1); plot(t,e1); xlabel("Time(s)"); ylabel("Amplitude"); title("Message Signal m(t)"); e2=(acsin(wct)); subplot(4,1,2); plot(t,e2); xlabel("Time(s)"); ylabel("Amplitude"); title("Carrier Signal c(t)"); sbsc1=(Am/2.cos(wct-wmt))-(Am/2.cos(wct+wmt)); sbsc2=(Am/2.cos(wct-wmt))+(Am/2.cos(wct+wmt)); e3=(sbsc2)+(sbsc1); subplot(4,1,3); plot(t,e3); xlabel("Time(s)"); ylabel("Amplitude"); title("SSB-SC Modulated Signal (LSB)"); e4=(sbsc2)-(sbsc1); subplot(4,1,4); plot(t,e4); xlabel("Time(s)"); ylabel("Amplitude"); title("SSB-SC Modulated Signal (USB)"); xgrid;
 
-OUTPUT WAVEFORM
-
-TABULATION
-
-
+OUTPUT WAVEFORM:
+![WhatsApp Image 2025-10-13 at 21 42 27_00284921](https://github.com/user-attachments/assets/adbbc2bb-f1e0-4d8d-94b0-701acc889d08)
 
 
-
-
-
+TABULATION:
+![WhatsApp Image 2025-10-30 at 22 47 06_fd7bee76](https://github.com/user-attachments/assets/8b096f78-6c1d-4f00-b8e3-c3e37b6768b0)
 
 
 RESULT:
-
 Thus, the SSB-SC-AM Modulation and Demodulation is experimentally done and the output is verified.
 
 
